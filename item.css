@@ -1,0 +1,238 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    width: 100vw;
+}
+
+#navbar {
+    background-color: white;
+    position: fixed;
+    box-shadow: 20px 20px 50px #dfdbdf;
+    width: 100vw;
+    height: 6vw;
+    display: flex;
+    justify-content: space-between;
+    z-index: +2;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+    margin-top: -1vw;
+    padding-top: 1vw
+}
+
+.nav {
+    padding: 1vw;
+    color: black;
+}
+
+a {
+    text-decoration: none
+}
+
+#navimg {
+    width: 100vw;
+    font-size: 1vw;
+}
+
+#logobut {
+    border: none;
+    background-color: hsl(1, 1%, 1%, 0);
+    height: 6vw;
+
+}
+
+#logoimg {
+    width: 5.5vw;
+    padding: 0.2vw;
+
+}
+
+#search {
+    display: flex;
+
+}
+
+#inputsearch {
+    color: black;
+    font-size: 1vw;
+    height: 5.5vw;
+}
+
+#searchbut {
+    background-image: url("assets/icons8-search-60.png");
+    height: 6vw;
+    background-repeat: no-repeat;
+    width: 6vw;
+}
+
+input {
+    height: 6vw;
+
+}
+
+#navbottom {
+    border-style: groove;
+}
+
+
+
+
+video {
+    width: 100vw;
+    z-index: -1;
+}
+
+#video {
+    font-size: 3vw;
+    z-index: +1;
+    position: absolute;
+    margin-top: -16vw;
+    color: #fedfd9;
+    padding-inline: 6vw;
+    box-shadow: 20px 20px 50px #ffcefd;
+}
+
+
+
+
+
+
+#theitem {
+    display: flex;
+    align-items: center;
+    padding-top: 8vw;
+    padding-bottom: 2vw;
+    flex-direction: column
+}
+
+#itemimg {
+    padding: 4vw;
+    width: 44vw;
+    height: fit-content;
+
+}
+
+#expl {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+#itemtitle {
+    font-size: 6vw;
+}
+
+#itemexpl {
+    font-size: 2vw;
+    display: flex;
+    padding-inline: 4vw;
+
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw;
+}
+
+.itembut {
+    width: 10vw;
+    height: 5vw;
+    background-color: #df9fdd;
+    border-style: none;
+}
+
+.itembut:hover {
+    box-shadow: 10px 10px 25px #cbbbcb;
+}
+
+
+
+
+
+
+
+
+
+#footercontainer {
+    flex-direction: column-reverse;
+    padding-top: 3vw;
+    background-color: rgba(168, 74, 160, 0.2);
+    display: flex;
+}
+
+#rights {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#socmed {
+    display: flex;
+    justify-content: center;
+}
+
+.socmed {
+    width: 9vw;
+}
+
+#yout {
+    width: 9.7vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    #itemimg {
+        width: 80vw;
+        height: fit-content;
+
+    }
+
+    #itemexpl {
+        font-size: 4vw;
+        padding-inline: 9vw;
+    }
+
+
+    #navbar {
+        height: 10vw;
+        width: 103.5vw;
+    }
+
+    #inputsearch {
+        height: 8.5vw;
+        width: 20vw;
+
+    }
+
+    #searchbut {
+        height: 10.1vw;
+        width: 10vw;
+    }
+
+    #logoimg {
+        width: 9.5vw;
+        padding: 0vw;
+        margin-top: -1.7vw;
+    }
+
+    .itembut {
+        width: 17vw;
+        height: 9vw;
+    }
+
+    #theitem {
+        flex-direction: column;
+
+    }
+
+}
