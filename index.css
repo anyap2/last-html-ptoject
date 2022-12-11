@@ -104,30 +104,34 @@ video {
 #all {
     display: flex;
     overflow-x: scroll;
-    margin-bottom: 2vw;
+    padding: 3vw;
 
 }
 
 #pop {
     background-color: #7e427a;
+    box-shadow: 0px 32px 80px 19px #7e427a;
 
 }
 
 #reggae {
-    background-color: #aaf778
+    background-color: #aaf778;
+    box-shadow: 0px 10px  101px 34px #aaf778;
 }
 
 #jazz {
     background-color: #e4d4ba;
+    box-shadow: 0px 10px  101px 51px #e4d4ba;
 }
 
 #indie {
     background-color: #426c83;
+    box-shadow: 0px 26px 101px 12px #426c83;
 }
 
 #metal {
     background-color: #fa0302;
-
+    box-shadow: 0px 28px 80px 5px #fa0302;
 }
 
 .reckords {
@@ -225,11 +229,11 @@ video {
 }
 @keyframes animetal{
     6%{visibility: visible;left:0vw}
-    24%{visibility: visible;left:90vw}
-    42%{visibility: visible;left:60vw}
-    60%{visibility: visible;left:30vw}
-    88%{visibility: visible;left:0vw}
-    99%{visibility: visible;left:0vw}
+    22%{visibility: visible;left:120vw}
+    39%{visibility: visible;left:90vw}
+    56%{visibility: visible;left:60vw}
+    72%{visibility: visible;left:30vw}
+    89%{visibility: visible;left:0vw}
 }
 
 #jazz{
@@ -238,11 +242,11 @@ video {
 }
 @keyframes anijazz{
     6%{visibility: visible;left:0vw}
-    24%{visibility: visible;left:-30vw}
-    42%{visibility: visible;left:-90vw}
-    60%{visibility: visible;left:-60vw}
-    88%{visibility: visible;left:-30vw}
-    99%{visibility: visible;left:0vw}
+    22%{visibility: visible;left:-30vw}
+    39%{visibility: visible;left:90vw}
+    56%{visibility: visible;left:60vw}
+    72%{visibility: visible;left:30vw}
+    89%{visibility: visible;left:0vw}
 }
 #indie{
     position: relative;
@@ -250,11 +254,11 @@ video {
 }
 @keyframes aniindie{
     6%{visibility: visible;left:0vw}
-    24%{visibility: visible;left:-30vw}
-    42%{visibility: visible;left:-60vw}
-    60%{visibility: visible;left:60vw}
-    88%{visibility: visible;left:30vw;}
-    99%{visibility: visible;left:0vw}
+    22%{visibility: visible;left:-30vw}
+    39%{visibility: visible;left:-60vw}
+    56%{visibility: visible;left:60vw}
+    72%{visibility: visible;left:30vw;}
+    89%{visibility: visible;left:0vw}
 }
 
 #reggae{
@@ -263,11 +267,11 @@ video {
 }
 @keyframes anireggae{
     6%{visibility: visible;left:0vw}
-    24%{visibility: visible;left:-30vw}
-    42%{visibility: visible;left:-60vw}
-    60%{visibility: visible;left:-90vw}
-    88%{visibility: visible;left:30vw}
-    99%{visibility: visible;left:0vw}
+    22%{visibility: visible;left:-30vw}
+    39%{visibility: visible;left:-60vw}
+    56%{visibility: visible;left:-90vw}
+    72%{visibility: visible;left:30vw}
+    89%{visibility: visible;left:0vw}
 }
 
 
@@ -275,11 +279,11 @@ video {
     position: relative;
     animation: anipop 16s infinite ;
 }
-@keyframes anireggae{
+@keyframes anipop{
     6%{visibility: visible;left:0vw}
-    24%{visibility: visible;left:-30vw}
-    42%{visibility: visible;left:-60vw}
-    60%{visibility: visible;left:-90vw}
-    88%{visibility: visible;left:-120vw}
-    99%{visibility: visible;left:0vw}
+    22%{visibility: visible;left:-30vw}
+    39%{visibility: visible;left:-60vw}
+    56%{visibility: visible;left:-90vw}
+    72%{visibility: visible;left:-120vw}
+    89%{visibility: visible;left:0vw}
 }
