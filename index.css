@@ -81,6 +81,8 @@ input {
 video {
     width: 100vw;
     z-index: -1;
+    margin-bottom: 2vw;
+    box-shadow: 0px 9px 25px 5px rgb(0 0 0 / 54%);
 }
 
 #video {
@@ -90,19 +92,20 @@ video {
     margin-top: -16vw;
     color: #fedfd9;
     padding-inline: 6vw;
+
 }
-
-
-
-/*     box-shadow: 0px 9px 25px 5px rgb(0 0 0 / 54%); */
-
 
 
 
 /* the item info */
 
-#all{
+
+
+#all {
     display: flex;
+    overflow-x: scroll;
+    margin-bottom: 2vw;
+
 }
 
 #pop {
@@ -136,13 +139,7 @@ video {
 }
 
 
-
-
-
-
-
-
-
+/* footer */
 
 
 #footercontainer {
@@ -220,4 +217,69 @@ video {
 
     }
 
+}
+
+#metal{
+    position: relative;
+    animation: animetal 16s infinite;
+}
+@keyframes animetal{
+    6%{visibility: visible;left:0vw}
+    24%{visibility: visible;left:90vw}
+    42%{visibility: visible;left:60vw}
+    60%{visibility: visible;left:30vw}
+    88%{visibility: visible;left:0vw}
+    99%{visibility: visible;left:0vw}
+}
+
+#jazz{
+    position: relative;
+    animation: anijazz 16s infinite;
+}
+@keyframes anijazz{
+    6%{visibility: visible;left:0vw}
+    24%{visibility: visible;left:-30vw}
+    42%{visibility: visible;left:-90vw}
+    60%{visibility: visible;left:-60vw}
+    88%{visibility: visible;left:-30vw}
+    99%{visibility: visible;left:0vw}
+}
+#indie{
+    position: relative;
+    animation: aniindie 16s infinite;
+}
+@keyframes aniindie{
+    6%{visibility: visible;left:0vw}
+    24%{visibility: visible;left:-30vw}
+    42%{visibility: visible;left:-60vw}
+    60%{visibility: visible;left:60vw}
+    88%{visibility: visible;left:30vw;}
+    99%{visibility: visible;left:0vw}
+}
+
+#reggae{
+    position: relative;
+    animation: anireggae 16s infinite;
+}
+@keyframes anireggae{
+    6%{visibility: visible;left:0vw}
+    24%{visibility: visible;left:-30vw}
+    42%{visibility: visible;left:-60vw}
+    60%{visibility: visible;left:-90vw}
+    88%{visibility: visible;left:30vw}
+    99%{visibility: visible;left:0vw}
+}
+
+
+#pop{
+    position: relative;
+    animation: anipop 16s infinite ;
+}
+@keyframes anireggae{
+    6%{visibility: visible;left:0vw}
+    24%{visibility: visible;left:-30vw}
+    42%{visibility: visible;left:-60vw}
+    60%{visibility: visible;left:-90vw}
+    88%{visibility: visible;left:-120vw}
+    99%{visibility: visible;left:0vw}
 }
